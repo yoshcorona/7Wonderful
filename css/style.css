@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.wonder_1:hover .hiden--text{
+    background-color: rgba(0,0,0,0.7);
+    visibility: visible;
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+}
+.wonder_2:hover .hiden--text{
+    background-color: rgba(0,0,0,0.7);
+    visibility: visible;
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+}
+.wonder_3:hover .hiden--text{
+    background-color: rgba(0,0,0,0.7);
+    visibility: visible;
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+}
+.wonder_4:hover .hiden--text{
+    background-color: rgba(0,0,0,0.7);
+    visibility: visible;
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+}
+.wonder_5:hover .hiden--text{
+    background-color: rgba(0,0,0,0.7);
+    visibility: visible;
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+}
+.wonder_6:hover .hiden--text{
+    background-color: rgba(0,0,0,0.7);
+    visibility: visible;
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+}
+.wonder_7:hover .hiden--text{
+    background-color: rgba(0,0,0,0.7);
+    visibility: visible;
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+}
+
+.hiden--text {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility.2s;
+
+}
+
+.hide {
+    color: cornsilk;
+    font-size: 2.5rem;
+
+}
+
+
+
+
+.container {
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(8, 1fr);
+    height: 100vh;
+    padding: 5px;
+    gap: 5px;
+}
+
+.wonder_1 {
+    background-image: url('../img/brasil.jpg');
+    background-position: center;
+    background-size: cover;
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}
+.wonder_2 {
+    background-image: url('../img/peru.jpg');
+    background-position: center;
+    background-size: cover;
+    grid-column: 3 / 5;
+    grid-row: 1 / 3;
+}
+.wonder_3 {
+    background-image: url('../img/francia.jpg');
+    background-position: center;
+    background-size: cover;
+    grid-column: 1 / 3 ;
+    grid-row:  3 / 4 ;
+}
+.wonder_4 {
+    background-image: url('../img/china.jpg');
+    background-position: center;
+    background-size: cover;
+    grid-column: 1 / 2;
+    grid-row: 4 / 5 ;
+}
+.wonder_5 {
+    background-image: url('../img/india.jpg');
+    background-position: center;
+    background-size: cover;
+    grid-column: 2 / 3 ;
+    grid-row: 4 / 5 ;
+}
+.wonder_6 {
+    background-image: url('../img/petra.jpg');
+    background-position: center;
+    background-size: cover;
+    grid-column: 3 / 5 ;
+    grid-row:  3 / 5;
+}
+.wonder_7 {
+    background-image: url('../img/mexico.jpg');
+    background-position: center;
+    background-size: cover;
+    grid-column: 5 / 9;
+    grid-row: 1 / 5;
+}
+
+
